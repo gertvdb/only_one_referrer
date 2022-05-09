@@ -1,0 +1,7 @@
+only_one_referrer.referrer:
+  path: '/referrer/{only_one}'
+  defaults:
+    _controller: '\Drupal\only_one_referrer\Controller\ReferrerController::referrer'
+    _title: ''
+  requirements:
+    _permission: 'access content'

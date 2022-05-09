@@ -1,0 +1,8 @@
+name: Only One Referrer
+type: module
+description: Provide a referrer to redirect to the canonical url for only one node
+core_version_requirement: ^9.1
+package: Content
+
+dependencies:
+  - onlyone:onlyone
